@@ -1,84 +1,40 @@
-const fs = require('fs');
-const path = require('path');
 const { json } = require('../_lib/http');
-const { handlePreflight, applyCors } = require('../_lib/cors');
+const { handlePreflight } = require('../_lib/cors');
 const { getUserFromRequest } = require('../_lib/supabase');
 const { userIsPro } = require('../_lib/entitlements');
-const { consumeUsage } = require('../_lib/usage');
+const catalogue = require('../_lib/catalogue');
 
-let cache = null;
-
-function loadPrivateTemplates() {
-  if (cache) return cache;
-  const p = path.join(__dirname, '..', '_private', 'premium-templates.json');
-  if (!fs.existsSync(p)) {
-    cache = {};
-    return cache;
-  }
-  cache = JSON.parse(fs.readFileSync(p, 'utf8'));
-  return cache;
+function createHandler({
+  getTemplateMetadata = catalogue.getTemplateMetadata,
+  getTemplate = catalogue.getTemplate,
+  authenticate = getUserFromRequest,
+  isPro = userIsPro,
+} = {}) {
+  return async function handler(req, res) {
+    if (handlePreflight(req, res, 'GET,OPTIONS')) return;
+    if (req.method !== 'GET') return json(res, 405, { error: 'Method not allowed' });
+    try {
+      const url = new URL(req.url, 'http://localhost');
+      const id = (url.searchParams.get('id') || '').trim();
+      if (!/^\d{4}$/.test(id)) return json(res, 400, { error: 'A four-digit template id is required' });
+      const meta = getTemplateMetadata(id);
+      if (!meta || meta.published !== true) return json(res, 404, { error: 'Template not found' });
+      if (meta.tier !== 'free') {
+        if (meta.tier !== 'premium') throw new Error('Invalid catalogue tier');
+        const user = await authenticate(req);
+        if (!user || !user.id) return json(res, 401, { error: 'Sign in required', code: 'auth_required' });
+        if (!(await isPro(user.id))) return json(res, 403, { error: 'Pro plan required', code: 'pro_required' });
+      }
+      // Fetch premium content only AFTER entitlement validation. Template usage is not consumed.
+      const template = await getTemplate(id);
+      if (!template) return json(res, 404, { error: 'Template not found' });
+      return json(res, 200, { template, access: { tier: meta.tier } });
+    } catch {
+      // Do not return private file paths, prompt fragments, service responses, or credentials.
+      return json(res, 500, { error: 'Failed to load template', code: 'catalogue_unavailable' });
+    }
+  };
 }
 
-module.exports = async function handler(req, res) {
-  if (handlePreflight(req, res, 'GET,OPTIONS')) return;
-  applyCors(req, res, 'GET,OPTIONS');
-
-  if (req.method !== 'GET') {
-    return json(res, 405, { error: 'Method not allowed' });
-  }
-
-  try {
-    const url = new URL(req.url, 'http://localhost');
-    const code = String(
-      url.searchParams.get('code') || url.searchParams.get('id') || ''
-    ).trim();
-    if (!code) {
-      return json(res, 400, { error: 'Missing template code' });
-    }
-
-    const user = await getUserFromRequest(req);
-    if (!user || !user.id) {
-      return json(res, 401, {
-        error: 'Sign in required',
-        code: 'auth_required',
-      });
-    }
-    if (!(await userIsPro(user.id))) {
-      return json(res, 403, {
-        error: 'Pro plan required',
-        code: 'pro_required',
-      });
-    }
-
-    const map = loadPrivateTemplates();
-    const entry = map[code];
-    if (!entry || !entry.link) {
-      return json(res, 404, { error: 'Template not found' });
-    }
-
-    const usage = await consumeUsage(user.id, 'templates', code);
-    if (!usage.ok) {
-      return json(res, usage.code === 'limit_exceeded' ? 429 : 400, {
-        error: usage.error || 'Daily limit reached for templates.',
-        code: usage.code || 'limit_exceeded',
-        kind: 'templates',
-        used: usage.used,
-        limit: usage.limit,
-        remaining: usage.remaining,
-        isPro: usage.isPro,
-        day: usage.day,
-      });
-    }
-
-    res.setHeader('Cache-Control', 'private, no-store');
-    return json(res, 200, {
-      code,
-      link: entry.link,
-      name: entry.name || null,
-      usage,
-    });
-  } catch (err) {
-    console.error('content/template error:', err);
-    return json(res, 500, { error: err.message || 'Failed to load template' });
-  }
-};
+module.exports = createHandler();
+module.exports.createHandler = createHandler;

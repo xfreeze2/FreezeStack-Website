@@ -1,0 +1,1580 @@
+{
+  "version": "4.4-selective-user-details+categories-2026-09-17",
+  "templates": [
+    {
+      "id": "0002",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Bold Painterly Fashion Illustration Portrait",
+      "short_description": "Stylish sunglasses portrait with expressive brush strokes and luxury color contrast.",
+      "category": "creative-style-edits",
+      "category_name": "Creative & Style Edits",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into a premium painterly fashion illustration. Create a bold close-up fashion portrait with expressive digital paint strokes, rich brush texture, and high-end editorial styling. Create a semi-abstract urban or editorial background with painterly blocks, textured shadows, and dynamic brush movement. Keep the person recognizable, preserving their facial features and actual age.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0002/thumb.webp",
+      "preview": "/assets/templates/0002/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0004",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Playful Sunglasses Summer Close-Up",
+      "short_description": "Bright beach-style selfie with tinted sunglasses and carefree expression.",
+      "category": "portraits-headshots",
+      "category_name": "Portraits & Headshots",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into a premium playful summer lifestyle editorial image. Create an energetic close-up portrait where the subject is leaning toward the camera, holding stylish transparent sunglasses with warm amber or orange-tinted lenses. The sunglasses should have clear plastic frames, reflective tinted lenses, realistic transparency, and warm sun reflections. Use a close-up wide-angle selfie perspective with strong facial focus, playful depth, clean background blur, and premium lifestyle photography polish. Keep the person recognizable, preserving their facial features and actual age.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0004/thumb.webp",
+      "preview": "/assets/templates/0004/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0005",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Low-Angle Skateboard Streetwear Portrait",
+      "short_description": "Sporty streetwear fashion shot with skateboard, blue sky, and wide-angle attitude.",
+      "category": "fashion-try-on",
+      "category_name": "Fashion & Virtual Try-On",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into a premium skate-inspired streetwear editorial image. Create a dramatic low-angle fashion composition where the subject stands confidently above the camera, holding a skateboard vertically in the foreground. Use an extreme wide-angle perspective so the skateboard, sneakers, and legs feel powerful and close to the viewer, while the subject’s face remains sharp, stylish, and naturally recognizable.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0005/thumb.webp",
+      "preview": "/assets/templates/0005/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0007",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Colorful Alley Jump Fashion Portrait",
+      "short_description": "Create a bright travel-fashion still of the person jumping mid-air in a colorful hillside alley.",
+      "category": "fashion-try-on",
+      "category_name": "Fashion & Virtual Try-On",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Create a bright travel-fashion still of the person jumping mid-air in a colorful hillside alley. Use pastel facades, textured steps and receding street depth, with clear separation around the airborne limbs. Add lively but coherent wind in the hair and clothing, crisp sunlight and a believable cast shadow below. Keep the source identity and a natural athletic pose.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0007/thumb.webp",
+      "preview": "/assets/templates/0007/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0009",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Underwater Fish Ride Fantasy Portrait",
+      "short_description": "Wholesome underwater adventure with child riding a giant friendly fish.",
+      "category": "creative-style-edits",
+      "category_name": "Creative & Style Edits",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded child portrait into a premium magical underwater adventure scene. Create a dreamy underwater fantasy world where the child is happily riding on top of a giant friendly orange fish. Place the scene inside a bright turquoise ocean environment with soft sunlight rays shining through the water surface, floating air bubbles, colorful coral reefs, sea plants, small fish in the distance, sand floor, and gentle underwater depth. Make the giant fish feel physically present with correct scale, contact shadows, soft highlights, underwater reflections, and believable depth. Keep the person recognizable, preserving their facial features and actual age.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0009/thumb.webp",
+      "preview": "/assets/templates/0009/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0014",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Shattered Glass Macro Beauty Portrait",
+      "short_description": "Cinematic close-up portrait seen through cracked glass shards.",
+      "category": "beauty-grooming",
+      "category_name": "Beauty & Grooming",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into an ultra-premium shattered-glass macro beauty editorial image. Place a realistic cracked glass layer in front of the face, with a central impact point near the cheek or lower eye area. The glass should have sharp radial cracks, reflective broken edges, transparent shards, tiny highlights, and realistic refraction across the face. The glass should feel physically present between the camera and subject, creating depth, distortion, reflection, and tension without showing injury. Keep the person recognizable, preserving their facial features and actual age.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0014/thumb.webp",
+      "preview": "/assets/templates/0014/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0016",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Neon Botanical Macro Beauty Portrait",
+      "short_description": "Close-up beauty portrait with glowing flowers, blue shadows, and pink neon light.",
+      "category": "beauty-grooming",
+      "category_name": "Beauty & Grooming",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into a premium neon botanical macro beauty editorial image. Create an extreme close-up side-profile beauty portrait where the subject’s face is partially surrounded by delicate flowers, tiny branches, soft petals, glowing particles, and dreamy botanical details. Use dramatic cinematic lighting: cool blue shadows across the face, warm pink glow near the eyes and lips, soft rim light around the hair, shallow depth of field, and dreamy macro lens compression. Keep the person recognizable, preserving their facial features and actual age.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0016/thumb.webp",
+      "preview": "/assets/templates/0016/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0019",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Lavender Butterfly Meadow Selfie Portrait",
+      "short_description": "Dreamy flower-field portrait with butterflies, blue sky, and soft sunlight.",
+      "category": "portraits-headshots",
+      "category_name": "Portraits & Headshots",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into a premium dreamy outdoor meadow editorial image. Create a bright cinematic flower-field scene where the subject is standing or leaning forward in a lush lavender and purple wildflower meadow. Surround the subject with floating purple, blue, and pastel butterflies at different distances from the camera. Add realistic butterfly wing texture, delicate veins, soft shadows, and natural light reflections. Keep the person recognizable, preserving their facial features and actual age.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0019/thumb.webp",
+      "preview": "/assets/templates/0019/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0021",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Classic Cartoon Living Room Mascot Scene",
+      "short_description": "Turn your person, pet or mascot into a recognizable classic-cartoon character in a cozy living room.",
+      "category": "characters-avatars",
+      "category_name": "Characters & Avatars",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Subject reference",
+          "required": true,
+          "guidance": "Upload one person, pet or original mascot with its face and defining features visible. The cartoon character follows that subject instead of defaulting to a blue cat."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded person, pet or original mascot into a recognizable classic-cartoon character in a cozy living room. Keep a person human, keep a pet's species and distinctive markings, and retain an original mascot's defining silhouette and colors. Translate visible facial traits, hairstyle, clothing or accessories into simple expressive cartoon shapes without replacing the subject with an unrelated character. Place the character confidently in the center of the room with a cheerful expression and one friendly raised hand or paw; use a thumbs-up only when it suits the character's anatomy. Use clean outlines, playful proportions and soft cel shading. Include blue patterned walls, a yellow sofa, colorful pillows, a wooden table, a TV stand, a sunlit window with green curtains, a potted plant, framed wall art and a rug. Use warm afternoon lighting and keep the main character unobstructed. Do not introduce extra characters or lettering.",
+      "review": {
+        "text_status": "targeted prompt correction; editorial and full-package static checks",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "existing preview requires comparison with the v4.2 prompt before reuse",
+        "revision_scope": "The upload accepted a person, pet or mascot, but the prompt forced every reference into a blue cat. The description also promised insect companions absent from the prompt."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0021/thumb.webp",
+      "preview": "/assets/templates/0021/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0022",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Punk Mouse Graffiti Alley Mascot",
+      "short_description": "Cool cartoon mouse mascot in streetwear, graffiti, smoke, and puddles.",
+      "category": "characters-avatars",
+      "category_name": "Characters & Avatars",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Subject reference",
+          "required": true,
+          "guidance": "One person, pet or mascot; use its defining visible traits for the new character."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded subject, pet, mascot, or character reference into a premium cinematic urban mascot poster. Preserve the subject’s main personality, color palette, expression, pose energy, clothing vibe, and recognizable mood. Create an original cool mouse-inspired mascot character standing confidently in a gritty graffiti alley. Place the character in a colorful urban alley filled with bold graffiti, spray-paint textures, wet pavement, puddle reflections, scattered paper, wall stains, soft fog, and cinematic background blur.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0022/thumb.webp",
+      "preview": "/assets/templates/0022/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0023",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Blue Robot Cat Friendship Poster",
+      "short_description": "Create a family-friendly 3D animated friendship poster featuring a recognizable cartoon version of the person in the uploaded portrait beside one original blue robotic cat mascot.",
+      "category": "posters-covers-invitations",
+      "category_name": "Posters, Covers & Invitations",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear photograph of the person to transform into a recognizable animated character."
+        }
+      ],
+      "fields": [
+        {
+          "name": "headline",
+          "required": true,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 12,
+          "input_label": "Headline",
+          "placeholder": "(Required: add the exact headline here)"
+        },
+        {
+          "name": "supporting copy",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Supporting copy",
+          "placeholder": "(Optional: add the exact supporting copy here; leave blank to omit)"
+        },
+        {
+          "name": "cta",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 5,
+          "input_label": "Call to action",
+          "placeholder": "(Optional: add the exact call to action here; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Create a family-friendly 3D animated friendship poster featuring a recognizable cartoon version of the person in the uploaded portrait beside one original blue robotic cat mascot. Preserve the person’s face, skin tone, apparent age and hairstyle through the stylization. Design the companion as a distinct friendly feline robot with triangular ears, a small square chest light and articulated paws; do not use an existing character design. Show both complete characters in a warm friendly pose on a blue studio floor with soft reflections and gentle cinematic light. Keep their faces and silhouettes separate. Typeset the supplied headline as the main poster message, then supplied supporting copy and CTA in clear separate areas. Keep words exact and omit unsupplied optional text. Add no invented names, logos or claims.\n\nTEXT TO SHOW IN THE IMAGE\nHeadline: (Required: add the exact headline here)\nSupporting copy: (Optional: add the exact supporting copy here; leave blank to omit)\nCall to action: (Optional: add the exact call to action here; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Clarify that the user becomes a recognizable animated person beside an original robot-cat companion, instead of ambiguously replacing the portrait with a mascot.; Require real supplied headline content where a headline is the design input; strengthen complete poster/ad hierarchy.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for headline, supporting copy, cta, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0023/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0023/thumb.webp",
+      "before": [
+        "/assets/templates/0023/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "posters-covers-invitations/0023-blue-robot-cat-friendship-poster/0023-blue-robot-cat-friendship-poster-after.jpg",
+        "before": [
+          "posters-covers-invitations/0023-blue-robot-cat-friendship-poster/0023-blue-robot-cat-friendship-poster-before.jpg"
+        ],
+        "example_fields": {
+          "headline": "BETTER TOGETHER",
+          "supporting copy": "A little friendship goes a long way"
+        },
+        "review_note": "Reviewed recognizable animated likeness with braided pigtails, glasses and matching outfit; both complete figures visible. Original blue feline robot has triangular ears, a square chest light and articulated limbs. Exact headline and supporting copy are readable; blue floor reflections establish the intended scene.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "2a30c6feb4bacaa6a3d7bd9bc9e27a30f9b8475682fc76c5887e77635f802c61",
+        "current_prompt_sha256": "990e99d1bf0c883a924c324aa341d80cc9a28a461ade071df40c857168587cc8",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0026",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Mascot Wall-Breakthrough Poster",
+      "short_description": "Use the uploaded mascot or character artwork as the exact identity reference.",
+      "category": "posters-covers-invitations",
+      "category_name": "Posters, Covers & Invitations",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Mascot reference",
+          "required": true,
+          "guidance": "Original mascot illustration, sketch or character render with its signature details clearly visible."
+        }
+      ],
+      "fields": [
+        {
+          "name": "headline",
+          "required": true,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 12,
+          "input_label": "Headline",
+          "placeholder": "(Required: add the exact headline here)"
+        },
+        {
+          "name": "supporting copy",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Supporting copy",
+          "placeholder": "(Optional: add the exact supporting copy here; leave blank to omit)"
+        },
+        {
+          "name": "cta",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 5,
+          "input_label": "Call to action",
+          "placeholder": "(Optional: add the exact call to action here; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Use the uploaded mascot or character artwork as the exact identity reference. Create one polished 3D animated action poster of that same mascot bursting playfully through a golden plaster wall. Preserve its species, silhouette, colors, face and signature accessories; never replace it with a panda unless the supplied character is a panda. Keep the complete character visible through the opening with broken wall pieces, a little dust and dramatic depth around it. Use warm cinematic lighting, crisp character detail and a joyful expression; keep debris away from the face and supplied copy. Set the exact supplied headline prominently, with supplied supporting copy and CTA in separate readable areas. Omit unsupplied optional wording. No extra characters, logos or invented claims.\n\nTEXT TO SHOW IN THE IMAGE\nHeadline: (Required: add the exact headline here)\nSupporting copy: (Optional: add the exact supporting copy here; leave blank to omit)\nCall to action: (Optional: add the exact call to action here; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Remove the contradiction between preserving any mascot and forcing it into a panda; define a useful action-poster transformation for brand characters.; Require real supplied headline content where a headline is the design input; strengthen complete poster/ad hierarchy.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for headline, supporting copy, cta, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0026/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0026/thumb.webp",
+      "before": [
+        "/assets/templates/0026/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "posters-covers-invitations/0026-mascot-wall-breakthrough-poster/0026-mascot-wall-breakthrough-poster-after.jpg",
+        "before": [
+          "posters-covers-invitations/0026-mascot-wall-breakthrough-poster/0026-mascot-wall-breakthrough-poster-before.jpg"
+        ],
+        "example_fields": {
+          "headline": "MAKE WAY FOR ADVENTURE",
+          "supporting copy": "The next chapter starts here"
+        },
+        "review_note": "Reviewed corrected black torso, recognizable panda face, orange scarf and teal backpack in a complete jumping pose through a golden wall. One leg is bent backward but remains inside the image. Correct supplied headline and supporting words; supporting line gains a terminal period. Small paw-pad details differ through 3D stylization.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "6b7a2f49c31f8233046e7dfdd4b640eb9f1835020ef09d448a51cd2abf6d6582",
+        "current_prompt_sha256": "f2d4ef629aa7558be86ca8e09472b4fece277546c3310c59025910ab61fa87c0",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0032",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Cosmic Smartphone Hero Campaign",
+      "short_description": "Use Image 1 for the person and Image 2 for the exact smartphone.",
+      "category": "ads-campaigns",
+      "category_name": "Ads & Campaigns",
+      "compatibility": "Double image",
+      "image_count": 2,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        },
+        {
+          "name": "Smartphone photo",
+          "required": true,
+          "guidance": "Exact phone with its camera layout and visible finish."
+        }
+      ],
+      "fields": [
+        {
+          "name": "headline",
+          "required": true,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 12,
+          "input_label": "Headline",
+          "placeholder": "(Required: add the exact headline here)"
+        },
+        {
+          "name": "supporting copy",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Supporting copy",
+          "placeholder": "(Optional: add the exact supporting copy here; leave blank to omit)"
+        },
+        {
+          "name": "cta",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 5,
+          "input_label": "Call to action",
+          "placeholder": "(Optional: add the exact call to action here; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Use image 1 for the person and image 2 for the exact smartphone. Create a low-angle fashion-tech campaign where the person holds the phone close to the lens as the sharp foreground hero. Preserve its camera layout, finish and visible branding. Match finger grip and perspective, keep the person recognizable behind it, and add a restrained cosmic-light backdrop with clear space for supplied campaign copy. Add the headline, the supporting copy and a CTA only if supplied. Keep the supplied wording and spelling exact, leaving any unsupplied optional text out. Create a complete designed composition with a clear visual hierarchy. Typeset the supplied title or headline as the main message, then the supplied supporting information and action, where appropriate to this format. Keep words exact and readable, with comfortable margins. Omit optional copy that was not supplied. Do not invent prices, claims, dates, testimonials or contact information.\n\nTEXT TO SHOW IN THE IMAGE\nHeadline: (Required: add the exact headline here)\nSupporting copy: (Optional: add the exact supporting copy here; leave blank to omit)\nCall to action: (Optional: add the exact call to action here; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Require real supplied headline content where a headline is the design input; strengthen complete poster/ad hierarchy.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for headline, supporting copy, cta, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0032/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0032/thumb.webp",
+      "before": [],
+      "source_preview": {
+        "after": "ads-campaigns/0032-cosmic-smartphone-hero-campaign/0032-cosmic-smartphone-hero-campaign-after.jpg",
+        "before": [
+          "ads-campaigns/0032-cosmic-smartphone-hero-campaign/0032-cosmic-smartphone-hero-campaign-before-01.jpg",
+          "ads-campaigns/0032-cosmic-smartphone-hero-campaign/0032-cosmic-smartphone-hero-campaign-before-02.jpg"
+        ],
+        "example_fields": {
+          "headline": "A fresh perspective",
+          "supporting copy": "Meet your next everyday companion",
+          "cta": "Explore the collection"
+        },
+        "review_note": "Mint phone is sharp foreground hero with exact two-camera/one-flash arrangement, recognizable fictional model in cobalt jacket behind it and coherent five-digit grip. Cosmic light backdrop and all approved headline/supporting/action wording readable. Grok added terminal periods to supplied lines; words otherwise preserved.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "3526b66b1e1fbf37947eca78f5c37b57409f19fda6481c2766efbc6d7bd2b9b2",
+        "current_prompt_sha256": "9298b6e6942aa3381299b9686eba24a3ec2ad37d0830839efc22c5f83a05b2e9",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0034",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Energized City Streetwear Campaign",
+      "short_description": "Low-angle urban fashion ad with balloons, confetti, and electric energy.",
+      "category": "ads-campaigns",
+      "category_name": "Ads & Campaigns",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Person portrait",
+          "required": true,
+          "guidance": "Clear unobstructed face; include the body area needed by the composition."
+        }
+      ],
+      "fields": [
+        {
+          "name": "headline",
+          "required": true,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 12,
+          "input_label": "Headline",
+          "placeholder": "(Required: add the exact headline here)"
+        },
+        {
+          "name": "supporting copy",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Supporting copy",
+          "placeholder": "(Optional: add the exact supporting copy here; leave blank to omit)"
+        },
+        {
+          "name": "cta",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 5,
+          "input_label": "Call to action",
+          "placeholder": "(Optional: add the exact call to action here; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Transform the uploaded portrait into a premium high-energy urban streetwear advertising campaign. Create a dramatic low-angle city-street composition where the subject walks confidently toward the camera in the middle of a modern urban avenue. Build the scene in a bright commercial city environment with tall glass skyscrapers, road markings, cars, taxis, billboards, clean sidewalks, and strong architectural perspective. Add colorful balloons floating in the sky, falling confetti, bold empty billboard panels, abstract lightning icons, and glowing electric energy rings around the subject’s shoes to create a \"power-up\" effect. Add the headline, the supporting copy and a CTA only if supplied. Keep the supplied wording and spelling exact, leaving any unsupplied optional text out. Keep the person recognizable, preserving their facial features and actual age. Create a complete designed composition with a clear visual hierarchy. Typeset the supplied title or headline as the main message, then the supplied supporting information and action, where appropriate to this format. Keep words exact and readable, with comfortable margins. Omit optional copy that was not supplied. Do not invent prices, claims, dates, testimonials or contact information.\n\nTEXT TO SHOW IN THE IMAGE\nHeadline: (Required: add the exact headline here)\nSupporting copy: (Optional: add the exact supporting copy here; leave blank to omit)\nCall to action: (Optional: add the exact call to action here; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Require real supplied headline content where a headline is the design input; strengthen complete poster/ad hierarchy.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for headline, supporting copy, cta, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0034/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0034/thumb.webp",
+      "before": [],
+      "source_preview": {
+        "after": "ads-campaigns/0034-energized-city-streetwear-campaign/0034-energized-city-streetwear-campaign-after.jpg",
+        "before": [
+          "ads-campaigns/0034-energized-city-streetwear-campaign/0034-energized-city-streetwear-campaign-before.jpg"
+        ],
+        "example_fields": {
+          "headline": "OWN YOUR EVERYDAY",
+          "supporting copy": "The new streetwear edit.",
+          "cta": "EXPLORE THE COLLECTION"
+        },
+        "review_note": "Reviewed complete streetwear poster: source face and outfit remain recognizable, city walk with balloons/confetti and shoe energy effect, exact headline, supporting sentence and CTA readable. Billboard panels stay blank.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "4cc62d122338af7ece667487a599bcb8a516e4bd53fc7f53a1cc17c07076c43f",
+        "current_prompt_sha256": "095946dfe4251f8a823f927bb159e597cd48da391611c9f6a827aa0056a236a0",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0101",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Floating Social Portrait Card",
+      "short_description": "Create a warm beige studio portrait with a floating rounded white social card.",
+      "category": "social-media-content",
+      "category_name": "Social Media Content",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Original photo",
+          "required": true,
+          "guidance": "Highest-quality available image with the target area visible."
+        }
+      ],
+      "fields": [
+        {
+          "name": "profile name",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 16,
+          "input_label": "Profile name",
+          "placeholder": "(Optional: add the exact profile name here; leave blank to omit)"
+        },
+        {
+          "name": "caption",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 16,
+          "input_label": "Caption",
+          "placeholder": "(Optional: add the exact caption here; leave blank to omit)"
+        },
+        {
+          "name": "metric",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 16,
+          "input_label": "Metric",
+          "placeholder": "(Optional: add only the real metric and its label to show; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Create a warm beige studio portrait with a floating rounded white social card. Seat the person inside its image area with one leg extending beyond the bottom edge. Use charcoal tailoring, soft directional lighting and grounded shadows. Include only supplied profile name, caption and metric; omit empty fields and do not invent popularity statistics or platform branding. Keep the supplied wording and spelling exact, leaving any unsupplied optional text out.\n\nTEXT TO SHOW IN THE IMAGE\nProfile name: (Optional: add the exact profile name here; leave blank to omit)\nCaption: (Optional: add the exact caption here; leave blank to omit)\nMetric: (Optional: add only the real metric and its label to show; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Selective user-input and wording clarification; existing visual intent retained; see user_details_review.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for profile name, caption, metric, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0101/thumb.webp",
+      "preview": "/assets/templates/0101/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0119",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Framing the Post",
+      "short_description": "A fashion portrait stands behind a floating generic social card while framing the face with both hands.",
+      "category": "social-media-content",
+      "category_name": "Social Media Content",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Original photo",
+          "required": true,
+          "guidance": "Highest-quality available image with the target area visible."
+        }
+      ],
+      "fields": [
+        {
+          "name": "profile name",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 16,
+          "input_label": "Profile name",
+          "placeholder": "(Optional: add the exact profile name here; leave blank to omit)"
+        },
+        {
+          "name": "caption",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 16,
+          "input_label": "Caption",
+          "placeholder": "(Optional: add the exact caption here; leave blank to omit)"
+        },
+        {
+          "name": "metric",
+          "required": false,
+          "use": "printed text",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 16,
+          "input_label": "Metric",
+          "placeholder": "(Optional: add only the real metric and its label to show; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Place the subject in a clean beige studio wearing coordinated pastel and white clothing, with both hands forming a rectangular camera-frame gesture around the face. Float a large generic white social-post card in front of the torso, its central image aligning with the real portrait for a layered cutout effect. Use original simple icons and invented layout. Use only exact user-supplied values for the supplied profile name, the supplied caption, and the supplied metric; leave any unsupplied field blank. Do not imitate an existing app, verified badge, logo, interface font, company, product, or watermark. Leave any optional copy out if it has not been supplied. Keep the supplied wording and spelling exact, leaving any unsupplied optional text out.\n\nTEXT TO SHOW IN THE IMAGE\nProfile name: (Optional: add the exact profile name here; leave blank to omit)\nCaption: (Optional: add the exact caption here; leave blank to omit)\nMetric: (Optional: add only the real metric and its label to show; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Selective user-input and wording clarification; existing visual intent retained; see user_details_review.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for profile name, caption, metric, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0119/thumb.webp",
+      "preview": "/assets/templates/0119/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0244",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Wedding Photo Enhancement",
+      "short_description": "Romantic polish for wedding memories.",
+      "category": "photo-editing-restoration",
+      "category_name": "Photo Editing & Restoration",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Group photo",
+          "required": true,
+          "guidance": "One photo containing every person whose identity must be preserved."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Enhance the uploaded wedding photo while preserving all people’s real faces, outfits, expressions, skin tones, pose, and emotion. Improve lighting, color grading, sharpness, skin clarity, dress texture, suit detail, background softness, and romantic atmosphere. Keep it elegant, natural, and high-resolution. Keep the original framing.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0244/thumb.webp",
+      "preview": "/assets/templates/0244/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0245",
+      "version": "4.2-natural-no-ratios",
+      "batch": 1,
+      "title": "Add More Sky",
+      "short_description": "Expands sky for dramatic travel composition.",
+      "category": "photo-editing-restoration",
+      "category_name": "Photo Editing & Restoration",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Original photo",
+          "required": true,
+          "guidance": "Highest-quality available image with the target area visible."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Add more sky to the uploaded travel image by extending the upper frame naturally. Preserve the original subject, landmark, landscape, horizon, lighting, and perspective. Generate realistic sky, clouds, color gradients, and atmospheric depth. Make the image suitable for vertical posts, posters, or headline space. Keep the original framing.",
+      "review": {
+        "text_status": "natural-language rewrite; static checks and targeted editorial review",
+        "image_test_status": "not_tested_for_this_version",
+        "existing_thumbnails": "unchanged; not assessed against this rewritten prompt",
+        "revision_scope": "Prompt and input/output contract carried forward unchanged from v4.1; v4.2 package metadata only."
+      },
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0245/thumb.webp",
+      "preview": "/assets/templates/0245/preview.webp",
+      "before": []
+    },
+    {
+      "id": "0294",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Merchandise Repeat Pattern Comparison",
+      "short_description": "Create one comparison board with three equally sized horizontal panels, separated by clear gutters.",
+      "category": "branding-logos-typography",
+      "category_name": "Branding, Logos & Typography",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Brand reference",
+          "required": true,
+          "guidance": "Logo, wordmark, sketch or typography sample that defines the starting identity."
+        }
+      ],
+      "fields": [
+        {
+          "name": "brand name",
+          "required": true,
+          "use": "exact identity name",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 12,
+          "input_label": "Brand name",
+          "placeholder": "(Required: add the exact brand name here)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "board",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Create one comparison board with three equally sized horizontal panels, separated by clear gutters. Use the supplied logo or monogram and approved brand colors. Top panel: a spacious straight repeat. Middle panel: a tighter diagonal staggered repeat. Bottom panel: a small-scale alternating symbol-and-wordmark repeat on a contrasting brand-color ground. Preserve the logo geometry and exact supplied wording. Show several complete repeats in every panel, with no cropped lettering at the outer frame. Keep all three pattern treatments visually different in scale, arrangement and ground color. Return a raster pattern concept board, not a certified seamless production tile. Keep this output focused on the named design task. In an application or palette study, retain the supplied mark’s geometry; in a redesign, change only the elements the task permits. When the task requests alternative redesign directions, make the permitted changes clearly distinguishable. Use only supplied brand wording and sample copy. Return a raster visual concept; do not claim to deliver vector paths, a usable font file or measured production specifications.\n\nTEXT TO SHOW IN THE IMAGE\nBrand name: (Required: add the exact brand name here)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Visual test returned one repeat instead of alternatives; define three visible pattern panels.; Clarify identity locks, visible differences between directions and raster concept limitations.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for brand name, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0294/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0294/thumb.webp",
+      "before": [
+        "/assets/templates/0294/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "branding-logos-typography/0294-merchandise-repeat-pattern-comparison/0294-merchandise-repeat-pattern-comparison-after.jpg",
+        "before": [
+          "branding-logos-typography/0294-merchandise-repeat-pattern-comparison/0294-merchandise-repeat-pattern-comparison-before.jpg"
+        ],
+        "example_fields": {
+          "brand name": "FERN & FORM"
+        },
+        "review_note": "Reviewed: three separated repeat studies with complete readable wordmarks, spacious upright layout, denser diagonal lettering and contrasting small-scale green-ground arrangement. Raster pattern comparison, not a seamless tile.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "5ea6a180dab003343650fd4057b1c77b8e7731fd22192d1d949f0af3f847f979",
+        "current_prompt_sha256": "ff42ac9a74f8e29655a0e758d518cd9d18678c360455971bdcf400dd9a1c2241",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0295",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Product in Everyday Use",
+      "short_description": "Show the uploaded product in a believable everyday use situation appropriate to its category.",
+      "category": "products-ecommerce",
+      "category_name": "Products & E-commerce",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Product photo",
+          "required": true,
+          "guidance": "Complete product silhouette and readable existing design; neutral lighting preferred."
+        }
+      ],
+      "fields": [
+        {
+          "name": "use context",
+          "required": false,
+          "use": "where and how the product is normally used",
+          "render_as": "instruction_data",
+          "default": null,
+          "input_label": "Use context",
+          "placeholder": "(Optional: specify use context — where and how the product is normally used; leave blank to follow the prompt and reference images)"
+        }
+      ],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Show the uploaded product in a believable everyday use situation appropriate to its category. Make the action or practical purpose immediately visible, with natural handling and plausible scale. Show mechanically correct contact between the product, hands and any object being handled; do not stage an impossible operation merely to expose the product. For products people hold or wear, use a generated adult with natural anatomy; for furniture, tools or appliances, show a suitable practical setup. Choose the setting from the supplied use context, or the item’s evident normal use if no context is given. Keep the product unobstructed enough to recognize. Use candid daylight and a believable lived-in environment. Preserve the uploaded item’s silhouette, construction, material, colors, branding and all visible label wording, except the specific edit requested. Preserve its actual product category; do not turn it into a bottle or substitute another item. Do not invent hidden features, accessories, certification marks or product claims.\n\nEDIT DETAILS — INSTRUCTIONS ONLY, DO NOT PRINT\nUse context: (Optional: specify use context — where and how the product is normally used; leave blank to follow the prompt and reference images)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Replace a generic lifestyle duplicate with an explicit product-in-use photograph.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for use context, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0295/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0295/thumb.webp",
+      "before": [
+        "/assets/templates/0295/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "products-ecommerce/0295-product-in-everyday-use/0295-product-in-everyday-use-after.jpg",
+        "before": [
+          "products-ecommerce/0295-product-in-everyday-use/0295-product-in-everyday-use-before.jpg"
+        ],
+        "example_fields": {
+          "use context": "A hand pressing the rounded orange peel down on the juicer; the orange half fully seated over the cone, hiding upper cone and cut flesh. Only rounded rind, lower orange base and stainless bowl visible. Other hand steadies bowl. Natural kitchen light, no floating pulp or cut face towards camera."
+        },
+        "review_note": "Corrected handling reviewed: orange cut face seated down over reamer, rind gripped from above; second hand steadies bowl. No exposed floating pulp or sideways impossible operation.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "c4f901540311e038aa221e9e3f3e86f097887294ebf4d74b52b618b753ca776f",
+        "current_prompt_sha256": "aecfcef53656e05694bb71e74a8bb9c6ed0cd379aa0e2d3987361031de46db77",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0296",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Product Color Variant Preview",
+      "short_description": "Create a single comparison board of the product in the approved variant colors.",
+      "category": "products-ecommerce",
+      "category_name": "Products & E-commerce",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Product photo",
+          "required": true,
+          "guidance": "Complete product silhouette and readable existing design; neutral lighting preferred."
+        }
+      ],
+      "fields": [
+        {
+          "name": "variant specifications",
+          "required": true,
+          "use": "approved colors / dimensions / finishes to show",
+          "render_as": "instruction_data",
+          "default": null,
+          "input_label": "Variant specifications",
+          "placeholder": "(Required: specify variant specifications — approved colors / dimensions / finishes to show)"
+        }
+      ],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "board",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Use the uploaded product photo for this edit. Create a single comparison board of the product in the approved variant colors. Change only the specified colored shell or finish while retaining the shape, material structure, label artwork and proportions. Use equal size and camera angle, identical neutral lighting and consistent spacing. If a color is not specified, request it instead of inventing stock availability. Follow the supplied variant specifications without inventing additional colors, finishes or sizes. Combine the views into one image, not separate files. Preserve category-specific construction and the exact supplied components. Keep the task’s actual information or material change visible; do not substitute a generic product-on-pedestal image.\n\nEDIT DETAILS — INSTRUCTIONS ONLY, DO NOT PRINT\nVariant specifications: (Required: specify variant specifications — approved colors / dimensions / finishes to show)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Clarify product fidelity and the information this result must communicate.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for variant specifications, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0296/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0296/thumb.webp",
+      "before": [],
+      "source_preview": {
+        "after": "products-ecommerce/0296-product-color-variant-preview/0296-product-color-variant-preview-after.jpg",
+        "before": [
+          "products-ecommerce/0296-product-color-variant-preview/0296-product-color-variant-preview-before.jpg"
+        ],
+        "example_fields": {
+          "variant specifications": "Only main painted flask body: coral red, cobalt blue, mustard yellow. Retain black cap and silver base; exactly three color concepts."
+        },
+        "review_note": "Three equal-size approved flask colors; black caps, silver bases and original geometry retained. Color edit is immediately apparent.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "4b1bf1ed8ca12e70aabcd7c302c1c5c098918a63cba957c02d20d59a5874ec21",
+        "current_prompt_sha256": "8b8bb805558dcb359feea7313273035a4c64bc7936045cececf93932dfef113c",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0301",
+      "version": "4.3-distinct-use-cases",
+      "batch": 1,
+      "title": "Logo On Merchandise",
+      "short_description": "Show your logo on a T-shirt, mug, notebook and tote bag in one four-panel merchandise mockup.",
+      "category": "mockups",
+      "category_name": "Mockups",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Flat artwork",
+          "required": true,
+          "guidance": "Upload one clean, flat logo or brand mark with all intended lettering visible. The four merchandise items are generated display objects, so product photos are not required."
+        }
+      ],
+      "fields": [],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "board",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Use the uploaded logo or brand mark as the exact artwork for one merchandise presentation board. Create exactly four equal panels arranged in two rows and two columns: a front-view T-shirt at top left, a ceramic mug at top right, a closed notebook at bottom left and a tote bag at bottom right. Show one item in each panel. Apply the logo once on the visible front of each item, preserving its lettering, colors and proportions. Fit the print naturally to fabric, curved ceramic and the flat notebook cover without redesigning the logo. Use coordinated neutral product colors that keep the artwork readable, consistent soft studio lighting, realistic materials, subtle contact shadows and even spacing. Keep handles, straps and the full logo visible. Return the four panels together as one still image, not separate files. Do not add extra products, slogans or panel labels. Treat uploaded flat artwork as finished artwork: preserve its spelling, layout and proportions while mapping it realistically onto the intended surface. Show the surface or object named in this template clearly, with believable print scale, seams, folds and material response. Keep unsupplied sides plain. Use a generated base object only when no exact base photograph is required by the input slots.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "one_example_visually_reviewed_for_current_prompt",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Define artwork fidelity, material mapping and supplied-versus-generated base behavior."
+      },
+      "preview": "/assets/templates/0301/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0301/thumb.webp",
+      "before": [
+        "/assets/templates/0301/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "mockups/0301-logo-on-merchandise/0301-logo-on-merchandise-after.jpg",
+        "before": [
+          "mockups/0301-logo-on-merchandise/0301-logo-on-merchandise-before.jpg"
+        ],
+        "example_fields": {},
+        "review_note": "Reviewed four-panel PAWS & CO application: folded front-facing tee, mug, closed notebook and tote. Exact wordmark and two-color paw applied to every item; mug handle and tote straps visible. Tee is folded rather than spread flat.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "c9c15a08cc22b0ab23737f0a4181a1b3fecd87b87c09bc8e63022a602298895d",
+        "current_prompt_sha256": "c9c15a08cc22b0ab23737f0a4181a1b3fecd87b87c09bc8e63022a602298895d",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0302",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Corporate Stationery Mockup",
+      "short_description": "Create one coordinated stationery flat lay using the supplied identity.",
+      "category": "mockups",
+      "category_name": "Mockups",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Flat artwork",
+          "required": true,
+          "guidance": "Clean flat design with all intended lettering visible; avoid photographing a prior angled mockup."
+        }
+      ],
+      "fields": [
+        {
+          "name": "contact details",
+          "required": false,
+          "use": "exact phone, email or website for the business card and letterhead",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Contact details",
+          "placeholder": "(Optional: add the exact phone, email or website to show; leave blank to omit)"
+        },
+        {
+          "name": "address",
+          "required": false,
+          "use": "exact business postal address for the business card and letterhead",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Address",
+          "placeholder": "(Optional: add the exact address here — exact business postal address for the business card and letterhead; leave blank to omit)"
+        },
+        {
+          "name": "letter body",
+          "required": false,
+          "use": "exact letter wording for the letterhead only",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 60,
+          "input_label": "Letter body",
+          "placeholder": "(Optional: add the exact letter body here — exact letter wording for the letterhead only; leave blank to omit)"
+        }
+      ],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Create one coordinated stationery flat lay using the supplied identity. Arrange exactly seven separate items with clear margins: a business card, letterhead sheet, envelope, closed folder, staff ID card with logo only, notebook and presentation-cover sheet. Apply the intact logo at plausible print scale to each. Keep all seven items identifiable without stacking away their distinguishing edges. Use neutral paper, one restrained brand-color accent, realistic paper thickness and soft overhead light. Preserve source wording. Add contact details, address and letter body only when supplied, on their designated stationery items. Keep the staff ID logo-only, with no staff portrait or invented person. Do not fill blank areas with fake text or invent a person. Use a three-row arrangement: top row has the letterhead sheet, closed folder and presentation-cover sheet; middle row has the envelope and notebook; bottom row has one business card and exactly one staff ID card. Only the staff ID has a clip. Do not duplicate the ID or add hang tags. Treat uploaded flat artwork as finished artwork: preserve its spelling, layout and proportions while mapping it realistically onto the intended surface. Show the surface or object named in this template clearly, with believable print scale, seams, folds and material response. Keep unsupplied sides plain. Use a generated base object only when no exact base photograph is required by the input slots.\n\nTEXT TO SHOW IN THE IMAGE\nContact details: (Optional: add the exact phone, email or website to show; leave blank to omit)\nAddress: (Optional: add the exact address here — exact business postal address for the business card and letterhead; leave blank to omit)\nLetter body: (Optional: add the exact letter body here — exact letter wording for the letterhead only; leave blank to omit)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Define seven visible stationery applications and prevent fake staff/contact information in generic corporate mockups. A corrected test duplicated the staff badge; assign all seven items to an explicit row and prohibit extra clipped cards.; Define artwork fidelity, material mapping and supplied-versus-generated base behavior.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Expose contact details as optional user input; exact phone, email or website for the business card and letterhead.",
+            "Expose address as optional user input; exact business postal address for the business card and letterhead.",
+            "Expose letter body as optional user input; exact letter wording for the letterhead only.",
+            "Resolve optional stationery text entry while retaining the seven-item arrangement and logo-only staff ID.",
+            "Add editable parentheses for contact details, address, letter body, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0302/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0302/thumb.webp",
+      "before": [
+        "/assets/templates/0302/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "mockups/0302-corporate-stationery-mockup/0302-corporate-stationery-mockup-after.jpg",
+        "before": [
+          "mockups/0302-corporate-stationery-mockup/0302-corporate-stationery-mockup-before.jpg"
+        ],
+        "example_fields": {},
+        "review_note": "Exactly seven applications in requested three rows: letterhead, closed folder, presentation cover; envelope, notebook; business card, one clipped staff ID. KIVO mark intact, no fabricated contact copy or person. Letterhead repeats the mark at header and footer; brand marks relatively large for some production uses.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "578d64a29b77ca9d77ae11e4b9a71ae96d4c173a9c841751113747edaad0ba15",
+        "current_prompt_sha256": "295b39314cd2883cb347492e70e2a7f4910f481230177bf6baca3249bc75ce5b",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0441",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Garden Planting Within Existing Layout",
+      "short_description": "Add a coordinated planting design to the available garden beds and unpaved yard.",
+      "category": "real-estate-interiors",
+      "category_name": "Real Estate & Interiors",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Exterior photo",
+          "required": true,
+          "guidance": "The actual property or unfinished exterior; pool required for poolside furnishing."
+        }
+      ],
+      "fields": [
+        {
+          "name": "design brief",
+          "required": false,
+          "use": "materials, climate, allowed changes and retained items",
+          "render_as": "instruction_data",
+          "default": null,
+          "input_label": "Design brief",
+          "placeholder": "(Optional: specify design brief — materials, climate, allowed changes and retained items; leave blank to follow the prompt and reference images)"
+        }
+      ],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Add a coordinated planting design to the available garden beds and unpaved yard. Keep all existing paths, driveway, fence and hardscape geometry unchanged. Choose planting density and height that leave access clear; follow supplied climate or plant preferences and do not hide the house. Preserve the property footprint, existing openings, neighboring buildings, boundaries and camera view outside the explicitly requested change. Use realistic perspective, material junctions and lighting. Return a single architectural concept image.\n\nEDIT DETAILS — INSTRUCTIONS ONLY, DO NOT PRINT\nDesign brief: (Optional: specify design brief — materials, climate, allowed changes and retained items; leave blank to follow the prompt and reference images)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Define a distinct deliverable and remove ambiguous or conflicting instructions.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for design brief, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0441/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0441/thumb.webp",
+      "before": [],
+      "source_preview": {
+        "after": "real-estate-interiors/0441-garden-planting-within-existing-layout/0441-garden-planting-within-existing-layout-after.jpg",
+        "before": [
+          "real-estate-interiors/0441-garden-planting-within-existing-layout/0441-garden-planting-within-existing-layout-before.jpg"
+        ],
+        "example_fields": {
+          "design brief": "Mediterranean dry-summer climate; lavender, rosemary and low grasses. Plant only bare beds. Keep central path and side driveway exactly unchanged."
+        },
+        "review_note": "Reviewed planting only in existing soil beds; center path, fence, gravel drive, cottage openings and camera retained. Landscape change reads clearly.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "71d42e04ef23e5d105cdd9443329c887c9c72ddb3051c153c594ec77af55526e",
+        "current_prompt_sha256": "be79539520162ddaad3e473aebd5e177c9e9aac3515f2da7a4bab42c2bb401aa",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0442",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Proposed Balcony Addition",
+      "short_description": "Show one proposed balcony at the supplied location on the building.",
+      "category": "real-estate-interiors",
+      "category_name": "Real Estate & Interiors",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Exterior photo",
+          "required": true,
+          "guidance": "The actual property or unfinished exterior; pool required for poolside furnishing."
+        }
+      ],
+      "fields": [
+        {
+          "name": "design brief",
+          "required": false,
+          "use": "materials, climate, allowed changes and retained items",
+          "render_as": "instruction_data",
+          "default": null,
+          "input_label": "Design brief",
+          "placeholder": "(Optional: specify design brief — materials, climate, allowed changes and retained items; leave blank to follow the prompt and reference images)"
+        },
+        {
+          "name": "balcony location",
+          "required": true,
+          "use": "exact proposed location and permitted access changes",
+          "render_as": "instruction_data",
+          "default": null,
+          "input_label": "Balcony location",
+          "placeholder": "(Required: specify balcony location — exact proposed location and permitted access changes)"
+        }
+      ],
+      "content_mode": "Image editing",
+      "output": {
+        "kind": "image",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Show one proposed balcony at the supplied location on the building. Add plausible slab depth, railing and visually coherent support details. Alter an opening only if the supplied brief explicitly permits access changes. Do not claim the concept is structurally verified. Preserve the property footprint, existing openings, neighboring buildings, boundaries and camera view outside the explicitly requested change. Use realistic perspective, material junctions and lighting. Return a single architectural concept image.\n\nEDIT DETAILS — INSTRUCTIONS ONLY, DO NOT PRINT\nDesign brief: (Optional: specify design brief — materials, climate, allowed changes and retained items; leave blank to follow the prompt and reference images)\nBalcony location: (Required: specify balcony location — exact proposed location and permitted access changes)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. For a blank optional field, use its stated default when one is given; otherwise omit optional wording or follow the original visual instructions for optional edit details.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Define a distinct deliverable and remove ambiguous or conflicting instructions.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for design brief, balcony location, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0442/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0442/thumb.webp",
+      "before": [],
+      "source_preview": {
+        "after": "real-estate-interiors/0442-proposed-balcony-addition/0442-proposed-balcony-addition-after.jpg",
+        "before": [
+          "real-estate-interiors/0442-proposed-balcony-addition/0442-proposed-balcony-addition-before.jpg"
+        ],
+        "example_fields": {
+          "balcony location": "First-floor front facade beneath the upper-left window. Convert only that upper-left window to a glazed access door of the same width.",
+          "design brief": "One compact balcony projecting 1.2 m, dark metal railing and two coherent visible wall brackets. Preserve upper-right window, entire ground floor and existing flat roof."
+        },
+        "review_note": "Reviewed one compact upper-left balcony with visible railing, slab edge and two support brackets; only assigned upper-left opening extended for access. Ground floor, right window, roof and surroundings retained. Projection is a visual proposal, not measurable engineering validation.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "b939e75a45840146a4d03819461445e46e8c6bceb9d9e4e8e84108ca7565bafb",
+        "current_prompt_sha256": "786819545b000d37c5bc3d219eb33fe1cfe87aff07e81e84ae7d378c0aae7abc",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    },
+    {
+      "id": "0570",
+      "version": "4.4-selective-user-details",
+      "batch": 1,
+      "title": "Streetwear Typography Applications",
+      "short_description": "Create one streetwear lettering concept board in three clearly separated horizontal panels.",
+      "category": "branding-logos-typography",
+      "category_name": "Branding, Logos & Typography",
+      "compatibility": "Single image",
+      "image_count": 1,
+      "slots": [
+        {
+          "name": "Brand reference",
+          "required": true,
+          "guidance": "Logo, wordmark, sketch or typography sample that defines the starting identity."
+        }
+      ],
+      "fields": [
+        {
+          "name": "brand name",
+          "required": true,
+          "use": "exact identity name",
+          "render_as": "visible_text",
+          "default": null,
+          "recommended_max_words": 12,
+          "input_label": "Brand name",
+          "placeholder": "(Required: add the exact brand name here)"
+        }
+      ],
+      "content_mode": "Image + content",
+      "output": {
+        "kind": "board",
+        "count": 1,
+        "format": "PNG or high-quality JPEG",
+        "size_control": "image_tool"
+      },
+      "prompt": "Create one streetwear lettering concept board in three clearly separated horizontal panels. Each panel shows one complete application of the exact supplied brand name: top, a t-shirt front with bold condensed industrial lettering; middle, a hoodie back with unmistakable gothic blackletter featuring angular broken strokes and ornate capitals; bottom, a large hang tag with outlined athletic varsity lettering. Retype the brand name for each direction rather than copying its original wordmark font. Use only that name, without slogans or extra specimen headings. Keep garments simple so the lettering is dominant, legible and visibly different in each panel. Do not add duplicate typography specimens above the applications. Preserve a separate source symbol only if it is used. Return a raster visual concept, not a font file. Keep this output focused on the named design task. In an application or palette study, retain the supplied mark’s geometry; in a redesign, change only the elements the task permits. When the task requests alternative redesign directions, make the permitted changes clearly distinguishable. Use only supplied brand wording and sample copy. Return a raster visual concept; do not claim to deliver vector paths, a usable font file or measured production specifications.\n\nTEXT TO SHOW IN THE IMAGE\nBrand name: (Required: add the exact brand name here)\n\nReplace the parenthesized guidance above with your details before running this prompt. Treat an unchanged placeholder as missing input. Do not render field labels, placeholder guidance or the surrounding parentheses in the image. If any required detail is missing or ambiguous, ask for that detail before generating; do not guess it. Use the supplied visible wording exactly, with no invented names, claims, dates, prices or additional copy. Preserve existing wording in source artwork unless this task explicitly edits it.",
+      "review": {
+        "text_status": "Revised for distinct use cases; structural checks required",
+        "image_test_status": "existing_example_from_previous_prompt_revision_retained_not_regenerated",
+        "existing_thumbnails": "replaced_by_current_example",
+        "revision_scope": "Repeated six-panel tests failed to transfer specimen lettering onto garments; simplify to three direct applications with distinct lettering and no redundant specimen row.; Clarify identity locks, visible differences between directions and raster concept limitations.",
+        "user_details_review": {
+          "status": "reviewed_for_selective_user_inputs",
+          "method": "Full-library field and text-rule audit with targeted editorial review of ambiguous cases; no new image test.",
+          "visual_intent": "Existing subject, scene, style and composition retained.",
+          "changes": [
+            "Add editable parentheses for brand name, distinguishing visible copy from editing instructions."
+          ]
+        }
+      },
+      "preview": "/assets/templates/0570/preview.webp",
+      "tier": "free",
+      "published": true,
+      "thumbnail": "/assets/templates/0570/thumb.webp",
+      "before": [
+        "/assets/templates/0570/before-01.webp"
+      ],
+      "source_preview": {
+        "after": "branding-logos-typography/0570-streetwear-typography-applications/0570-streetwear-typography-applications-after.jpg",
+        "before": [
+          "branding-logos-typography/0570-streetwear-typography-applications/0570-streetwear-typography-applications-before.jpg"
+        ],
+        "example_fields": {
+          "brand name": "TERRA RUN"
+        },
+        "review_note": "Simplified three-panel board now visibly differentiates condensed T-shirt lettering, gothic blackletter on hoodie back and outlined varsity lettering on hang tag. TERRA RUN is readable in each application without redundant specimen rows.",
+        "generation_method": "Grok Imagine Agent through Chrome UI; revised prompt plus separately recorded example field values",
+        "generation_prompt_sha256": "1abad0f932ee22aacc3c307bb817058ceec62955f881284d0c373331f907dac4",
+        "current_prompt_sha256": "20f494ba187ad816c4ba229cefb97a1e7c80f900f64f9eedc25210e86034b6eb",
+        "prompt_revision_note": "Existing image generated with the previous prompt and example values; retained after user-input clarification. No image regeneration or new visual validation in v4.4."
+      }
+    }
+  ]
+}

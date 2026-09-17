@@ -100,6 +100,14 @@
   ],
   "rewrites": [
     {
+      "source": "/templates/:id",
+      "destination": "/template.html"
+    },
+    {
+      "source": "/template",
+      "destination": "/template.html"
+    },
+    {
       "source": "/",
       "destination": "/home.html"
     },
@@ -204,6 +212,23 @@
     }
   },
   "headers": [
+    {
+      "source": "/assets/templates/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "CDN-Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
     {
       "source": "/assets/videos/(.*)",
       "headers": [

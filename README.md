@@ -9,7 +9,7 @@ Production static site for [freezestack.com](https://freezestack.com).
 │   ├── index.html    ← Entry (redirects to home)
 │   ├── home.html
 │   ├── login.html / signup.html
-│   ├── templates.html, prompt-library.html, skills.html
+│   ├── templates.html, template.html, prompt-library.html, skills.html
 │   ├── css/  js/  data/  assets/  grok-templates/
 ├── docs/             ← AUTH-SETUP.md, payment docs
 ├── scripts/          ← Optional skills sync helpers

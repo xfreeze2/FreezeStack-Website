@@ -1,0 +1,241 @@
+{
+  "version": "2026-09-17.2",
+  "templates": [
+    {
+      "id": "0004",
+      "spotlight": true
+    },
+    {
+      "id": "0005",
+      "spotlight": true
+    },
+    {
+      "id": "0012",
+      "spotlight": true
+    },
+    {
+      "id": "0018",
+      "spotlight": true
+    },
+    {
+      "id": "0035",
+      "spotlight": true
+    },
+    {
+      "id": "0043",
+      "spotlight": true
+    },
+    {
+      "id": "0052",
+      "spotlight": true
+    },
+    {
+      "id": "0097",
+      "spotlight": true
+    },
+    {
+      "id": "0111",
+      "spotlight": true
+    },
+    {
+      "id": "0113",
+      "spotlight": true
+    },
+    {
+      "id": "0122",
+      "spotlight": true
+    },
+    {
+      "id": "0137",
+      "spotlight": true
+    },
+    {
+      "id": "0140",
+      "spotlight": true
+    },
+    {
+      "id": "0142",
+      "spotlight": true
+    },
+    {
+      "id": "0147",
+      "spotlight": true
+    },
+    {
+      "id": "0148",
+      "spotlight": true
+    },
+    {
+      "id": "0159",
+      "spotlight": true
+    },
+    {
+      "id": "0161",
+      "spotlight": true
+    },
+    {
+      "id": "0164",
+      "spotlight": true
+    },
+    {
+      "id": "0166",
+      "spotlight": true
+    },
+    {
+      "id": "0180",
+      "spotlight": true
+    },
+    {
+      "id": "0187",
+      "spotlight": true
+    },
+    {
+      "id": "0194",
+      "spotlight": true
+    },
+    {
+      "id": "0539",
+      "spotlight": true
+    },
+    {
+      "id": "0001",
+      "spotlight": false
+    },
+    {
+      "id": "0060",
+      "spotlight": false
+    },
+    {
+      "id": "0072",
+      "spotlight": false
+    },
+    {
+      "id": "0085",
+      "spotlight": false
+    },
+    {
+      "id": "0106",
+      "spotlight": false
+    },
+    {
+      "id": "0174",
+      "spotlight": false
+    },
+    {
+      "id": "0202",
+      "spotlight": false
+    },
+    {
+      "id": "0291",
+      "spotlight": false
+    },
+    {
+      "id": "0342",
+      "spotlight": false
+    },
+    {
+      "id": "0613",
+      "spotlight": false
+    },
+    {
+      "id": "0633",
+      "spotlight": false
+    },
+    {
+      "id": "0649",
+      "spotlight": false
+    },
+    {
+      "id": "0680",
+      "spotlight": false
+    },
+    {
+      "id": "0699",
+      "spotlight": false
+    },
+    {
+      "id": "0721",
+      "spotlight": false
+    },
+    {
+      "id": "0809",
+      "spotlight": false
+    },
+    {
+      "id": "0832",
+      "spotlight": false
+    },
+    {
+      "id": "0836",
+      "spotlight": false
+    },
+    {
+      "id": "0859",
+      "spotlight": false
+    },
+    {
+      "id": "0865",
+      "spotlight": false
+    },
+    {
+      "id": "0872",
+      "spotlight": false
+    },
+    {
+      "id": "0873",
+      "spotlight": false
+    },
+    {
+      "id": "0891",
+      "spotlight": false
+    },
+    {
+      "id": "0899",
+      "spotlight": false
+    },
+    {
+      "id": "0900",
+      "spotlight": false
+    },
+    {
+      "id": "0930",
+      "spotlight": false
+    },
+    {
+      "id": "0936",
+      "spotlight": false
+    },
+    {
+      "id": "0978",
+      "spotlight": false
+    },
+    {
+      "id": "0979",
+      "spotlight": false
+    },
+    {
+      "id": "0995",
+      "spotlight": false
+    },
+    {
+      "id": "1068",
+      "spotlight": false
+    },
+    {
+      "id": "1077",
+      "spotlight": false
+    },
+    {
+      "id": "1161",
+      "spotlight": false
+    },
+    {
+      "id": "1213",
+      "spotlight": false
+    },
+    {
+      "id": "1223",
+      "spotlight": false
+    }
+  ]
+}
