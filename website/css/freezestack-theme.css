@@ -1,5 +1,25 @@
 /* Original site chrome + light/dark tokens for the new templates library. */
 .hidden { display: none !important; }
+
+.site-nav-logo--mark,
+.site-nav-drawer-logo.site-nav-logo--mark {
+  gap: 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  color: var(--xf-nav-logo, var(--text));
+}
+.site-nav-logo--mark img,
+.site-nav-drawer-logo.site-nav-logo--mark img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.site-nav-logo--mark .brand-dot {
+  color: var(--accent, #e8a48b);
+}
 body[data-page="templates"] .site-header,
 body[data-page="template"] .site-header { display: none; }
 body[data-page="templates"] .page-shell.library-shell,
