@@ -52,7 +52,6 @@ h1,h2{letter-spacing:-.035em}
 .view-note{margin-top:4px;color:var(--muted);font-size:.6875rem}
 .sort-control{display:flex;align-items:center;gap:8px;flex-shrink:0}
 .sort-control select{background:transparent;border:0;padding:7px 0 7px 8px;min-height:36px;font-size:.75rem;max-width:160px}
-.card-id{color:var(--muted);font-size:.6875rem;margin-top:7px;font-variant-numeric:tabular-nums}
 .card-heading h3{font-size:.9375rem}
 .favorite-button{width:40px;height:40px}
 .detail-category{display:inline-block;color:var(--muted);font-size:.8125rem;margin:0 0 14px;min-height:24px}
@@ -101,7 +100,7 @@ h1,h2{letter-spacing:-.035em}
   .library-filters{gap:12px}.search-field{width:100%}.library-filters .filter-actions{width:100%;gap:10px}.library-filters .filter-actions>label{flex:1;min-width:0}.library-filters .filter-actions select{width:100%;min-width:0;font-size:.75rem;min-height:44px}
   .library-shell .category-list{padding-top:15px;gap:6px}.library-shell .category{font-size:.6875rem;min-height:32px;padding:5px 9px;gap:4px}.library-shell .category-count{font-size:.625rem}
   .library-shell .result-line{align-items:start;margin-top:14px}.sort-control{gap:2px;font-size:.6875rem}.sort-control select{font-size:.6875rem;max-width:118px;padding-left:3px}.view-note{max-width:21ch}.result-line>div{padding-top:8px;font-size:.6875rem}
-  .favorite-button{width:36px;height:36px}.card-heading h3{font-size:.8125rem}.card-id{font-size:.625rem}.card-description{font-size:.75rem}.template-grid{gap:25px 12px}
+  .favorite-button{width:36px;height:36px}.card-heading h3{font-size:.8125rem}.card-description{font-size:.75rem}.template-grid{gap:25px 12px}
   .detail-copy h1{font-size:1.875rem}.detail-save{width:auto;height:auto}.detail-layout .preview-frame>img{max-height:380px}.related-templates{margin-top:34px}.related-templates .section-top{gap:16px}.related-templates h2{font-size:1.125rem}.related-templates .text-link{font-size:.75rem;white-space:nowrap}
   .studio-layout{grid-template-columns:minmax(0,1fr)}.studio-controls{padding:18px}.studio-controls .generation-action{position:static;box-shadow:none}.studio-layout .preview-frame>img{max-height:340px}.studio-layout .preview-frame{min-height:220px}
   .field-group input,.field-group textarea,.field-group select,.search-box input{font-size:16px}.ratio-options{gap:5px}.ratio-options label{font-size:.6875rem}

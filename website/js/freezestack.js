@@ -109,7 +109,7 @@
   window.addEventListener('pageshow', event => { if (event.persisted) { syncFavorites(); refreshFavoriteButtons(); } });
   function templateCard(t) {
     const count = Number(t.image_count) || 1;
-    return el('article', { class: 'template-card', 'data-template-id': t.id }, el('a', { class: 'card-link', href: `/templates/${encodeURIComponent(t.id)}` }, el('div', { class: 'card-visual' }, img(t.thumbnail, t.title), el('span', { class: 'card-image-count' }, icon('images'), `${count} reference${count === 1 ? '' : 's'}`)), el('div', { class: 'card-heading' }, el('h3', {}, t.title), badge(t.tier)), el('p', { class: 'card-description' }, t.short_description || t.category_name), el('p', { class: 'card-id' }, `#${t.id}`)), favoriteButton(t));
+    return el('article', { class: 'template-card', 'data-template-id': t.id }, el('a', { class: 'card-link', href: `/templates/${encodeURIComponent(t.id)}` }, el('div', { class: 'card-visual' }, img(t.thumbnail, t.title), el('span', { class: 'card-image-count' }, icon('images'), `${count} reference${count === 1 ? '' : 's'}`)), el('div', { class: 'card-heading' }, el('h3', {}, t.title), badge(t.tier)), el('p', { class: 'card-description' }, t.short_description || t.category_name)), favoriteButton(t));
   }
   function featured(items) {
     const preferred = ['portraits-headshots', 'products-ecommerce', 'real-estate-interiors'];
@@ -223,7 +223,7 @@
     const buttons = images.map((entry, index) => el('button', { type: 'button', class: 'button button-secondary', 'aria-pressed': String(index === 0), onclick: () => show(index) }, entry.label));
     function show(index) { frame.replaceChildren(img(images[index].src, images[index].alt, true), el('span', { class: 'preview-label' }, images[index].label === 'After' ? 'EXAMPLE RESULT' : images[index].label.toUpperCase())); buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === index))); }
     show(0);
-    return el('div', { class: 'preview-area' }, before.length ? el('div', { class: 'preview-tabs', 'aria-label': 'Example views' }, ...buttons) : null, frame, el('div', { class: 'preview-caption' }, el('span', {}, 'Template example. Your result will vary.'), el('span', {}, `NO. ${t.id}`)));
+    return el('div', { class: 'preview-area' }, before.length ? el('div', { class: 'preview-tabs', 'aria-label': 'Example views' }, ...buttons) : null, frame, el('div', { class: 'preview-caption' }, el('span', {}, 'Template example. Your result will vary.')));
   }
   function gate(error, path = currentReturn()) {
     if (![401, 403].includes(error.status)) return el('div', { class: 'gate' }, el('h2', {}, 'Prompt unavailable'), el('p', {}, error.message), el('button', { class: 'button button-secondary', onclick: () => location.reload() }, 'Try again'));
@@ -288,7 +288,7 @@
       const info = el('div', { class: 'detail-copy' },
         el('a', { class: 'detail-category', href: `/templates?category=${encodeURIComponent(t.category)}` }, t.category_name, ' ↗'),
         el('h1', {}, t.title), el('p', { class: 'lead' }, t.short_description),
-        el('div', { class: 'detail-meta' }, badge(t.tier), el('span', { class: 'muted small' }, `#${id}`), save),
+        el('div', { class: 'detail-meta' }, badge(t.tier), save),
         requirements(t), protectedArea);
       root.replaceChildren(el('div', { class: 'detail-layout' }, preview(t), info)); root.setAttribute('aria-busy', 'false');
       const related = published(data).filter(item => item.category === t.category && String(item.id) !== id).slice(0, 4);
