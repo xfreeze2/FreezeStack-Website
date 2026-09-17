@@ -1,3 +1,137 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#171717"><title>Template preview — Freezestack</title><meta name="description" content="Explore the example, reference requirements, and customizable prompt for this template."><link rel="icon" type="image/png" href="/assets/images/logo/freezestack-mark-32.png"><link rel="stylesheet" href="/css/freezestack.css"><script src="/js/freezestack.js" defer></script><script src="/js/auth-config.js" defer></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.0" defer></script><script src="/js/auth.js" defer></script></head><body data-page="template"><a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="/templates" aria-label="Freezestack templates"><img src="/assets/images/logo/freezestack-mark-32.png" width="30" height="30" alt=""><span>freezestack<span class="brand-dot">.</span></span></a><nav aria-label="Main navigation"><a href="/templates" data-nav="templates">Templates</a></nav><div class="header-end"><details class="more-menu"><summary>Explore <span aria-hidden="true">⌄</span></summary><div><a href="/skills">Skills</a><a href="/prompt-library">Prompt library</a><a href="/pricing">Membership</a></div></details><a class="account-link" href="/account">Account <span aria-hidden="true">↗</span></a></div></div></header><main id="main" class="page-shell"><div class="breadcrumb"><a href="/templates">Templates</a><span aria-hidden="true">/</span><span id="breadcrumb-title">Template preview</span></div><div id="template-detail" aria-busy="true"><div class="detail-loading"><div class="skeleton preview-skeleton"></div><div><div class="skeleton line-skeleton"></div><div class="skeleton line-skeleton"></div></div></div></div><noscript><p class="notice">Enable JavaScript to browse the catalogue and customize prompts.</p></noscript></main><footer class="site-footer"><a class="footer-brand" href="/templates">freezestack.</a><span>A starting point for your next image.</span><div><a href="/skills">Skills</a><a href="/prompt-library">Prompt library</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></footer><div id="toast" class="toast" role="status" aria-live="polite" hidden></div></body></html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" sizes="48x48" href="https://freezestack.com/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://freezestack.com/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://freezestack.com/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Template preview — Freezestack</title>
+  <meta name="description" content="Explore the example, reference requirements, and customizable prompt for this template.">
+  <script>
+    (function () {
+      var stored = localStorage.getItem('xfreeze-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var isDark = stored === 'dark' || (stored !== 'light' && prefersDark);
+      document.documentElement.classList.toggle('dark', isDark);
+    })();
+  </script>
+  <script src="js/site-config.js"></script>
+  <script src="js/site-meta.js"></script>
+  <script src="js/auth-config.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/site-fonts.css">
+  <link rel="stylesheet" href="css/theme-switch.css">
+  <link rel="stylesheet" href="css/site-footer.css">
+  <link rel="stylesheet" href="css/site-nav.css?v=crown2">
+  <link rel="stylesheet" href="css/site-mobile.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/theme-dark.css">
+  <link rel="stylesheet" href="css/freezestack.css">
+  <link rel="stylesheet" href="css/freezestack-theme.css">
+  <script src="js/freezestack.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.0" defer></script>
+  <script src="js/auth.js?v=gauth5" defer></script>
+  <script src="js/site-nav.js" defer></script>
+  <script src="js/site-footer.js" defer></script>
+  <script src="js/entitlement.js" defer></script>
+  <script src="js/usage.js" defer></script>
+</head>
+<body data-page="template">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav id="site-nav" class="site-nav page-nav" aria-label="Main">
+    <div class="content-container">
+      <div class="site-nav-bar">
+        <a href="home" class="site-nav-logo">Freezestack</a>
+        <div class="site-nav-pill">
+          <a href="templates" class="site-nav-pill-link site-nav-pill-link--active" aria-current="page">Templates</a>
+          <a href="prompt-library" class="site-nav-pill-link">Prompts</a>
+          <a href="skills" class="site-nav-pill-link">Skills</a>
+          <a href="about" class="site-nav-pill-link">About</a>
+          <a href="contact" class="site-nav-pill-link">Contact</a>
+        </div>
+        <div class="site-nav-end">
+          <a href="pricing" class="site-nav-coffee site-nav-go-pro" aria-label="Go Pro">
+            <svg class="site-nav-go-pro-icon" viewBox="0 0 576 512" width="12" height="12" aria-hidden="true" focusable="false"><path fill="currentColor" d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L209.7 220.6c-9.1 18.2-32.7 23.4-48.6 10.7L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40c.2 0 .5 0 .7 0L86.4 427.4c5.5 30.4 32 52.6 63 52.6l277.2 0c30.9 0 57.4-22.1 63-52.6L535.3 176c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24l-89.1 71.3c-15.9 12.7-39.5 7.5-48.6-10.7L309 106z"/></svg>
+            <span class="site-nav-coffee__label">Go Pro</span>
+          </a>
+          <button type="button" onclick="toggleMobileMenu()" class="site-nav-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+            <i class="fa-solid fa-bars text-sm" aria-hidden="true"></i>
+          </button>
+          <div id="xf-auth-nav" class="site-nav-auth"><a href="login" class="site-nav-auth-btn">Sign in</a></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="mobile-menu-backdrop" class="site-nav-mobile-backdrop hidden" aria-hidden="true"></div>
+  <div id="mobile-menu" class="site-nav-mobile-panel site-nav-mobile-panel--drawer hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site menu">
+    <div class="site-nav-mobile-drawer">
+      <header class="site-nav-drawer-head">
+        <a href="home" class="site-nav-drawer-logo" onclick="toggleMobileMenu()">Freezestack</a>
+        <button type="button" class="site-nav-drawer-close" onclick="toggleMobileMenu()" aria-label="Close menu"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      </header>
+      <nav class="site-nav-drawer-nav" aria-label="Mobile">
+        <a href="templates" class="site-nav-drawer-link site-nav-drawer-link--active" onclick="toggleMobileMenu()">Templates</a>
+        <a href="prompt-library" class="site-nav-drawer-link" onclick="toggleMobileMenu()">Prompts</a>
+        <a href="skills" class="site-nav-drawer-link" onclick="toggleMobileMenu()">Skills</a>
+        <a href="about" class="site-nav-drawer-link" onclick="toggleMobileMenu()">About</a>
+      </nav>
+      <div class="site-nav-drawer-bottom">
+        <div id="xf-auth-drawer" class="site-nav-drawer-auth">
+          <a href="signup" class="site-nav-drawer-auth-btn site-nav-drawer-cta" onclick="toggleMobileMenu()">Get started</a>
+          <a href="login" class="site-nav-drawer-auth-btn site-nav-drawer-auth-btn--ghost" onclick="toggleMobileMenu()">Sign in</a>
+        </div>
+        <footer class="site-nav-drawer-footer">
+          <div class="site-nav-drawer-theme">
+            <span class="site-nav-drawer-theme__label">Dark mode</span>
+            <button type="button" onclick="toggleTheme()" class="site-nav-drawer-theme__switch theme-switch theme-switch--sm" role="switch" aria-checked="false" aria-label="Switch to dark mode">
+              <span class="theme-switch-track" aria-hidden="true">
+                <span class="theme-switch-thumb">
+                  <span class="theme-switch-icon theme-switch-icon--sun"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm0-16h1.5v3H12V2zm0 19h1.5v3H12v-3zM2 12h3v1.5H2V12zm19 0h3v1.5h-3V12z"/></svg></span>
+                  <span class="theme-switch-icon theme-switch-icon--moon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.1 2.2a9.8 9.8 0 1 0 9.7 12.4A7.5 7.5 0 1 1 12.1 2.2z"/></svg></span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </footer>
+        <div class="site-nav-drawer-meta-row">
+          <a href="contact" onclick="toggleMobileMenu()">Contact</a>
+          <span class="site-nav-drawer-meta-dot" aria-hidden="true">·</span>
+          <a href="privacy" onclick="toggleMobileMenu()">Legal</a>
+          <span class="site-nav-drawer-meta-dot" aria-hidden="true">·</span>
+          <a href="terms" onclick="toggleMobileMenu()">Terms</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main id="main" class="page-shell">
+    <div class="breadcrumb"><a href="/templates">Templates</a><span aria-hidden="true">/</span><span id="breadcrumb-title">Template preview</span></div>
+    <div id="template-detail" aria-busy="true"><div class="detail-loading"><div class="skeleton preview-skeleton"></div><div><div class="skeleton line-skeleton"></div><div class="skeleton line-skeleton"></div></div></div></div>
+    <noscript><p class="notice">Enable JavaScript to browse the catalogue and customize prompts.</p></noscript>
+  </main>
+  <footer class="xf-site-footer" data-xf-footer-root></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script>
+    function getPreferredTheme() {
+      var stored = localStorage.getItem('xfreeze-theme');
+      if (stored === 'dark' || stored === 'light') return stored;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    function applyTheme(theme) {
+      var isDark = theme === 'dark';
+      document.documentElement.classList.toggle('dark', isDark);
+      localStorage.setItem('xfreeze-theme', theme);
+      document.querySelectorAll('.theme-toggle, .theme-toggle-mobile, .site-nav-drawer-theme__switch').forEach(function (btn) {
+        btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+        btn.setAttribute('title', isDark ? 'Light mode' : 'Dark mode');
+        btn.setAttribute('aria-checked', isDark ? 'true' : 'false');
+      });
+    }
+    function toggleTheme() {
+      applyTheme(document.documentElement.classList.contains('dark') ? 'light' : 'dark');
+    }
+    applyTheme(getPreferredTheme());
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* Original site chrome + light/dark tokens for the new templates library. */
+.hidden { display: none !important; }
+body[data-page="templates"] .site-header,
+body[data-page="template"] .site-header { display: none; }
+body[data-page="templates"] .page-shell.library-shell,
+body[data-page="template"] .page-shell { padding-top: 12px; }
+body[data-page="templates"] .xf-site-footer,
+body[data-page="template"] .xf-site-footer { margin-top: 48px; }
+
+html:not(.dark) {
+  color-scheme: light;
+  --bg: #f6f5f8;
+  --surface: #ffffff;
+  --raised: #ffffff;
+  --text: #0a0a0a;
+  --muted: #52525b;
+  --accent: #c45c38;
+  --line: #e5e7eb;
+}
+html:not(.dark) body { background: var(--bg); color: var(--text); }
+html:not(.dark) .skip-link { color: #fff; }
+html:not(.dark) .search-box input::placeholder { color: #8a8580; }
+html:not(.dark) .search-box kbd { border-color: #d4d4d8; }
+html:not(.dark) .category.active .category-count { color: #d6d3ce; }
+html:not(.dark) .card-image-count,
+html:not(.dark) .favorite-button,
+html:not(.dark) .preview-label { background: rgba(255,255,255,.9); color: var(--text); border-color: var(--line); }
+html:not(.dark) .favorite-button { border: 1px solid var(--line); }
+html:not(.dark) .badge { color: #6b635c; border-color: #d4d0cb; }
+html:not(.dark) .badge-free { color: #9a4a2c; border-color: #e8c4b4; }
+html:not(.dark) .skeleton { background: linear-gradient(100deg,#eceae6 25%,#f7f5f2 45%,#eceae6 65%); background-size: 200% 100%; }
+html:not(.dark) .preview-frame { background: #f0eeeb; }
+html:not(.dark) .prompt-text { color: #3f3b38; }
+html:not(.dark) .gate { background: #fff7f2; border-color: #ead5c8; }
+html:not(.dark) .gate p { color: #6b5348; }
+html:not(.dark) .notice { background: #fff7f2; border-color: #ead5c8; color: #6b5348; }
+html:not(.dark) .field-group input,
+html:not(.dark) .field-group textarea,
+html:not(.dark) .field-group select { background: #fff; border-color: #d4d0cb; }
+html:not(.dark) .upload-slot { background: #f7f5f2; border-color: #d4d0cb; }
+html:not(.dark) .upload-slot .upload-index { background: #efe8e2; }
+html:not(.dark) .ratio-options label { background: #f7f5f2; border-color: #d4d0cb; }
+html:not(.dark) .ratio-options label:has(input:checked) { background: #fff3ec; }
+html:not(.dark) .toast { background: var(--text); color: #fff; }
+@media (hover: hover) and (pointer: fine) {
+  html:not(.dark) .button-secondary:hover { background: #f3f1ee; color: var(--text); }
+}
+
+html.dark {
+  color-scheme: dark;
+  --bg: #171717;
+  --surface: #20201f;
+  --raised: #292826;
+  --text: #f4f0eb;
+  --muted: #aaa59f;
+  --accent: #e8a48b;
+  --line: #383633;
+}

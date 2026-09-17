@@ -11,6 +11,7 @@ var XF_PUBLIC_PAGES = [
   'terms',
   'privacy',
   'templates',
+  'template',
   'skills',
   'prompt-library',
   'bundles',
