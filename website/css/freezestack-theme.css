@@ -84,9 +84,9 @@ html.dark {
   box-sizing: border-box;
   width: calc(100% - 96px);
   max-width: 1464px;
-  min-height: 240px;
+  min-height: 340px;
   margin: 18px auto 6px;
-  padding-block: 2.4rem 2.15rem;
+  padding-block: 3.25rem 3rem;
   border: 1px solid var(--line, #e5e7eb);
   border-radius: 20px;
   background: var(--bg, #f6f5f8);
@@ -187,7 +187,7 @@ body[data-page="templates"] .library-heading h1 { display: none; }
   .templates-banner__content { padding: 0 26px; }
 }
 @media (max-width: 760px) {
-  .templates-banner { width: calc(100% - 40px); min-height: 200px; padding-block: 1.85rem 1.7rem; border-radius: 16px; }
+  .templates-banner { width: calc(100% - 40px); min-height: 280px; padding-block: 2.5rem 2.3rem; border-radius: 16px; }
   .templates-banner__content { padding: 0 18px; }
 }
 @media (prefers-reduced-motion: reduce) {
