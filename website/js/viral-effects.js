@@ -69,7 +69,7 @@
         const focusIndex = grid.contains(document.activeElement) ? [...grid.children].indexOf(document.activeElement) : -1;
         grid.replaceChildren(...deck.slice(0, limit).map(card)); grid.setAttribute('aria-busy', 'false');
         more.hidden = limit >= deck.length; more.textContent = `Show more looks (${Math.max(0, deck.length - limit)})`;
-        status.textContent = `${Math.min(limit, deck.length)} of ${deck.length} handpicked looks`;
+        status.textContent = `${Math.min(limit, deck.length)} of ${deck.length} most used looks`;
         if (focusIndex >= 0) grid.children[focusIndex]?.focus({ preventScroll: true });
       }
       function mix() {
