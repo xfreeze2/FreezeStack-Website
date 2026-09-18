@@ -81,12 +81,14 @@ html.dark {
   position: relative;
   isolation: isolate;
   overflow: hidden;
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   width: calc(100% - 96px);
   max-width: 1464px;
   min-height: 340px;
   margin: 18px auto 6px;
-  padding-block: 3.25rem 3rem;
+  padding-block: 2.6rem;
   border: 1px solid var(--line, #e5e7eb);
   border-radius: 20px;
   background: var(--bg, #f6f5f8);
@@ -123,71 +125,93 @@ html.dark .templates-banner__veil {
 .templates-banner__content {
   position: relative;
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px 56px;
+  width: 100%;
   max-width: none;
   margin: 0;
-  padding: 0 36px;
+  padding: 0 44px;
 }
+.templates-banner__copy { max-width: 34rem; }
 .templates-banner .xf-section-eyebrow {
   font-size: .68rem;
-  letter-spacing: .14em;
+  letter-spacing: .16em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .templates-banner .xf-section-title {
   font-family: 'Manrope', sans-serif;
-  font-size: clamp(1.85rem, 3.2vw, 2.55rem);
-  line-height: 1.12;
-  letter-spacing: -.04em;
+  font-size: clamp(2rem, 3.4vw, 2.85rem);
+  line-height: 1.08;
+  letter-spacing: -.045em;
   font-weight: 800;
 }
 .templates-banner .xf-section-lead {
-  margin-top: 8px;
-  max-width: 36rem;
+  margin-top: 12px;
+  max-width: 32rem;
   color: var(--muted);
-  font-size: .92rem;
-  line-height: 1.5;
+  font-size: .98rem;
+  line-height: 1.55;
 }
-.templates-banner__chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 12px 0 0;
-  padding: 0;
-  list-style: none;
-}
-.templates-banner__chips li,
-.templates-banner__chips a {
+.templates-banner__cta {
   display: inline-flex;
   align-items: center;
-  min-height: 28px;
-  padding: 0 10px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.78);
-  border: 1px solid rgba(15,23,42,.08);
-  font-size: .75rem;
-  font-weight: 600;
+  gap: 8px;
+  margin-top: 18px;
+  font-size: .9rem;
+  font-weight: 650;
   letter-spacing: -.01em;
+  color: var(--text);
+  cursor: pointer;
+}
+.templates-banner__cta span { color: var(--accent); }
+.templates-banner__facts {
+  flex: 0 0 17.5rem;
+  margin: 0;
+}
+.templates-banner__facts > div {
+  padding: 13px 0;
+  border-top: 1px solid rgba(15, 23, 42, .1);
+}
+html.dark .templates-banner__facts > div { border-top-color: rgba(255,255,255,.12); }
+.templates-banner__facts > div:last-child { padding-bottom: 0; }
+.templates-banner__facts dt {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 750;
+  letter-spacing: -.03em;
+}
+.templates-banner__facts dd {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.4;
+}
+.templates-banner__facts a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
 }
-html.dark .templates-banner__chips li,
-html.dark .templates-banner__chips a {
-  background: rgba(23,23,23,.62);
-  border-color: rgba(255,255,255,.12);
-}
-.templates-banner__chips a { cursor: pointer; }
 @media (hover: hover) and (pointer: fine) {
-  .templates-banner__chips a:hover { border-color: var(--accent); }
+  .templates-banner__cta:hover { color: var(--accent); }
+  .templates-banner__facts a:hover { color: var(--text); }
 }
 body[data-page="templates"] .library-heading { padding-top: 10px; }
 body[data-page="templates"] .library-heading h1 { display: none; }
 @media (max-width: 1250px) {
   .templates-banner { width: calc(100% - 60px); margin-top: 14px; }
-  .templates-banner__content { padding: 0 26px; }
+  .templates-banner__content { padding: 0 28px; gap: 36px; }
+}
+@media (max-width: 900px) {
+  .templates-banner__content { flex-direction: column; align-items: flex-start; gap: 22px; }
+  .templates-banner__facts { flex: none; width: 100%; max-width: 22rem; }
 }
 @media (max-width: 760px) {
-  .templates-banner { width: calc(100% - 40px); min-height: 280px; padding-block: 2.5rem 2.3rem; border-radius: 16px; }
+  .templates-banner { width: calc(100% - 40px); min-height: 0; padding-block: 1.9rem; border-radius: 16px; }
   .templates-banner__content { padding: 0 18px; }
 }
 @media (prefers-reduced-motion: reduce) {
