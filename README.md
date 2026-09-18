@@ -6,10 +6,9 @@ Production static site for [freezestack.com](https://freezestack.com).
 
 ```
 ├── website/          ← Deploy THIS folder (Vercel root: website)
-│   ├── index.html    ← Entry (redirects to home)
-│   ├── home.html
+│   ├── index.html    ← Entry (redirects to templates)
 │   ├── login.html / signup.html
-│   ├── templates.html, template.html, prompt-library.html, skills.html
+│   ├── templates.html, template.html, prompt-library.html
 │   ├── css/  js/  data/  assets/  grok-templates/
 ├── docs/             ← AUTH-SETUP.md, payment docs
 ├── scripts/          ← Optional skills sync helpers

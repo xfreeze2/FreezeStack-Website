@@ -76,3 +76,85 @@ html.dark {
   --accent: #e8a48b;
   --line: #383633;
 }
+
+.templates-banner {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(18rem, 34vw, 26rem);
+  padding-block: clamp(3.25rem, 7vw, 5rem);
+  border-bottom: 1px solid var(--line, #e5e7eb);
+  background: var(--bg, #f6f5f8);
+  color: var(--text);
+}
+.templates-banner__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.templates-banner__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.templates-banner__video.is-ready { opacity: 1; }
+.templates-banner__veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(255,255,255,.42);
+}
+html.dark .templates-banner__veil { background: rgba(0,0,0,.42); }
+.templates-banner__content {
+  position: relative;
+  z-index: 2;
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+.templates-banner .xf-section-eyebrow {
+  font-size: .72rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+.templates-banner .xf-section-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 1.08;
+  letter-spacing: -.04em;
+  font-weight: 800;
+  max-width: 14ch;
+}
+.templates-banner .xf-section-lead {
+  margin-top: 16px;
+  max-width: 34rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+body[data-page="templates"] .library-heading {
+  padding-top: 18px;
+}
+body[data-page="templates"] .library-heading h1 { display: none; }
+@media (max-width: 1250px) {
+  .templates-banner__content { padding: 0 30px; }
+}
+@media (max-width: 760px) {
+  .templates-banner { min-height: auto; padding-block: 3rem 2.4rem; }
+  .templates-banner__content { padding: 0 20px; }
+  html:not(.dark) .templates-banner__veil { background: rgba(255,255,255,.48); }
+  html.dark .templates-banner__veil { background: rgba(0,0,0,.48); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .templates-banner__video { display: none; }
+}

@@ -31,11 +31,8 @@
     {
       title: 'Explore',
       links: [
-        { href: 'home', label: 'Home', nav: 'home' },
         { href: 'templates', label: 'Templates', nav: 'templates' },
         { href: 'prompt-library', label: 'Motion prompts', nav: 'prompts' },
-        { href: 'skills', label: 'Skills', nav: 'skills' },
-
         { href: 'about', label: 'About', nav: 'about' },
         { href: 'contact', label: 'Contact', nav: 'contact' },
       ],
@@ -147,7 +144,7 @@
       '<div class="xf-footer-shell">' +
       '<div class="xf-footer-brand">' +
       '<p class="xf-footer-eyebrow">AI library for</p>' +
-      '<a href="' + base + 'home" class="xf-footer-logo">Freezestack</a>' +
+      '<a href="' + base + 'templates" class="xf-footer-logo">Freezestack</a>' +
       '<p class="xf-footer-tagline" data-xf-tagline>Ready-made AI assets for everything you ship.</p>' +
       renderFooterThemeSwitch() +
       '</div>' +
@@ -219,10 +216,9 @@
     if (!key) return;
 
     var hrefMap = {
-      home: 'home',
+      home: 'templates',
       templates: 'templates',
       about: 'about',
-      skills: 'skills',
       contact: 'contact',
       workflows: 'workflows',
       'use-cases': 'use-cases',

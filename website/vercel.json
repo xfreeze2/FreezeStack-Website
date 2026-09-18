@@ -96,6 +96,16 @@
       "source": "/collections",
       "destination": "/workflows",
       "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/templates",
+      "permanent": true
+    },
+    {
+      "source": "/skills",
+      "destination": "/templates",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -109,11 +119,7 @@
     },
     {
       "source": "/",
-      "destination": "/home.html"
-    },
-    {
-      "source": "/home",
-      "destination": "/home.html"
+      "destination": "/templates.html"
     },
     {
       "source": "/pricing",
@@ -126,10 +132,6 @@
     {
       "source": "/templates",
       "destination": "/templates.html"
-    },
-    {
-      "source": "/skills",
-      "destination": "/skills.html"
     },
     {
       "source": "/prompt-library",

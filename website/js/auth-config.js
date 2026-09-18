@@ -39,7 +39,7 @@ var XF_PROTECTED_PAGES = [
  */
 (function () {
   var page = (location.pathname.split('/').pop() || '').split('?')[0];
-  if (!page || page === 'index' || page === 'index.html') page = 'home';
+  if (!page || page === 'index' || page === 'index.html' || page === 'home') page = 'templates';
   if (page.length > 5 && page.slice(-5) === '.html') page = page.slice(0, -5);
   if (XF_PROTECTED_PAGES.indexOf(page) !== -1) {
     document.documentElement.classList.add('xf-auth-pending');
@@ -63,7 +63,7 @@ window.XFreezeAuthConfig = {
   supabaseAnonKey: 'sb_publishable_hwfaIz4HJxim1Rb3o04-UA_jyyoJgfY',
   siteUrl: 'https://freezestack.com',
   loginPath: 'login',
-  defaultRedirect: 'home',
+  defaultRedirect: 'templates',
 
   /* Same Google OAuth Web Client ID as Supabase (for One Tap / GIS). */
   googleClientId: '420941566311-7ms3q9vd5p6er0j1lmvnumug51c6dsqb.apps.googleusercontent.com',
